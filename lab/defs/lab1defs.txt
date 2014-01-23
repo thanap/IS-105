@@ -1,0 +1,10 @@
+
+Mkdir: Unix-kommandoen for å opprette en ny katalog
+CD: CD-kommandoen er brukt til å endre nåværende katalog i Linux
+Is: lister av informasjon av om filer i katalogen
+Is -l: viser filenes informasjon, f.eks filnavn, størrelse og dato
+Is -la: viser filenes informasjon inkludert skjulte filer
+pwd: forteller hvor man er i katalogstruktur
+grep: brukt til å søke etter input-filer
+cat: utstilling tekst-filer på skjermen, kopier av tekst-filer, kombinere tekst-filer, lag ny tekst-filer
+less: brukt til å utstilling tekst-filer, den krever ingen installasjon av programmvare eller noe setup
