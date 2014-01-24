@@ -1,10 +1,9 @@
-
-Mkdir: Unix-kommandoen for å opprette en ny katalog
-CD: CD-kommandoen er brukt til å endre nåværende katalog i Linux
-Is: lister av informasjon av om filer i katalogen
-Is -l: viser filenes informasjon, f.eks filnavn, størrelse og dato
+Mkdir: Unix-kommandoen for ï¿½ opprette en ny katalog
+CD: CD-kommandoen er brukt til ï¿½ endre nï¿½vï¿½rende katalog i Linux
+Is: viser filenes informasjon
+Is -l: viser filenes informasjon, f.eks filnavn, stï¿½rrelse og dato
 Is -la: viser filenes informasjon inkludert skjulte filer
 pwd: forteller hvor man er i katalogstruktur
-grep: brukt til å søke etter input-filer
-cat: utstilling tekst-filer på skjermen, kopier av tekst-filer, kombinere tekst-filer, lag ny tekst-filer
-less: brukt til å utstilling tekst-filer, den krever ingen installasjon av programmvare eller noe setup
+grep: brukt til ï¿½ sï¿½ke etter input-filer
+cat: utstilling tekst-filer pï¿½ skjermen, kopier av tekst-filer, kombinere tekst-filer, lag ny tekst-filer
+less: brukt til ï¿½ utstilling tekst-filer, den krever ingen installasjon av programmvare eller noe setup
