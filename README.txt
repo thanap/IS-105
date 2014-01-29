@@ -1,7 +1,8 @@
 IS-105
 
-Repository for lab-innleveringer IS-105 UiA
+Lab-innleveringer IS-105 UiA
 
 Gruppemedlemmer
+
 Thananchai Prasomwong
 Kent Brekke Amundsen
