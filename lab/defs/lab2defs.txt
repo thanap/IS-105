@@ -1,0 +1,18 @@
+﻿Lab 2
+1. Opreatør prioritet i python (operator precedence)
+
+Operatør prioritet i Python bestemmer hvilke operasjoner som skal gjennomføres først.
+Vi kan sammenligne det med vanlig mattematikk hvor multiplikasjon blir prioritert før addisjon i et regnestykke
+Og det er dermed da noen operasjoner (presedencer?) som har høyere prioritet enn andre
+
+2. One's complement
+
+One's complement er definisjonen på en operasjon hvor bits blir endret fra 0 til 1 eller
+1 til 0. Eksempel: 0001 blir til 1110 i one's complement. Eksempelet her er den binære verdien av 1. 
+
+
+3. Two's complement
+
+Two's complement blir brukt av alle datamaskiner for å representere heltall.
+Dette er en matematisk operasjon på binære tall. Dette er i hovudsak det samme som one's complement
+men som elimenerer negativ 0. men for å få two's complement må du inverte og legge til 1.
