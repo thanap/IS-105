@@ -111,9 +111,9 @@ print ""
 #      : legger til formatteringsmuligheter for denne variabelen (ellers hadde den 6 desimalt)
 #      08 formatterer tall til 8 tegn og fuller med nuller til venstre hvis nødvendig
 #      b konverterer tallet til dets binære representasjon
-def ascii8Bin(bokstav):
-	desimal = ord(bokstav)
-	return '{0:08b}'.format(desimal)
+def ascii8Bin(A):
+	return '{0:08b}'.format(ord(A))
+print ascii8Bin('A')
 
 # 
 #  Oppgave 7
@@ -126,7 +126,7 @@ def ascii8Bin(bokstav):
 def transferBin(string): 
 	l = list(string)
 	for c in l:
-	    return ascii8Bin(c)
+print ascii8Bin(c)
 		# skriv ut den binære representasjon av hvert tegn (bruk ascii8Bin funksjonen din)
 
 #
@@ -136,14 +136,13 @@ def transferBin(string):
 #					Skriv gjerne en støttefunksjon ascii2Hex, som representerer et tegn
 #					med 2 heksadesimale tegn
 #  
-def ascii2Hex(bokstav):
-    nybokstav =ord(botstav)
-    return '{0:02x}'.format(nybokstav)
-    
+
 def transferHex(string):
 	l = list(string)
 	for c in l:
-	    return asciiHex(c)
+print '{0:08x}'.format(ord)(c)
+	
+	transferHex('string')
 
 
 
