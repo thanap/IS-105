@@ -111,10 +111,12 @@ print ""
 #      : legger til formatteringsmuligheter for denne variabelen (ellers hadde den 6 desimalt)
 #      08 formatterer tall til 8 tegn og fuller med nuller til venstre hvis nødvendig
 #      b konverterer tallet til dets binære representasjon
-def ascii8Bin(A):
-	return '{0:08b}'.format(ord(A))
+print "Oppgave 6"
+def ascii8Bin(bokstav):
+	keg = ord(bokstav)
+	return '{0:08b}'.format(keg)
 print ascii8Bin('A')
-
+print ""
 # 
 #  Oppgave 7
 #    transferBin - ta en tilfeldig streng som argument og skriver ut en blokk av 8-bits strenger
@@ -123,10 +125,14 @@ print ascii8Bin('A')
 #                01001000
 #                01101001
 #
+print "Oppgave 7"
 def transferBin(string): 
 	l = list(string)
 	for c in l:
-print ascii8Bin(c)
+	    print ascii8Bin(c)
+	    
+transferBin("dafuq")
+print ""
 		# skriv ut den binære representasjon av hvert tegn (bruk ascii8Bin funksjonen din)
 
 #
@@ -137,13 +143,13 @@ print ascii8Bin(c)
 #					med 2 heksadesimale tegn
 #  
 
+print "Oppgave 8"    
 def transferHex(string):
 	l = list(string)
 	for c in l:
-print '{0:08x}'.format(ord)(c)
-	
-	transferHex('string')
-
+	    print c.encode("hex")
+transferHex("Well played")
+print ""
 
 
 
