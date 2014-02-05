@@ -1,0 +1,26 @@
+Et regulært uttrykk (regular expression)
+
+- Et regulært uttrykk er en streng som beskriver et sett av strenger som 
+følger gitte syntakstregler. Disse regulære uttrykkene brukes i verktøy for å søke etter og manipulere tekst.
+Programmeringsspråkene; C#, Java, JavaScript, Perl, PHP, Python og Ruby støtter alle regulære uttrykk.
+
+Import
+
+- Import lager en referanse til modulen som skal bli hentet inn.
+Dette er da altså en kommando som kan hente andre filtyper inn i python
+
+Skriptspråk
+
+- Skriptspråk er en type programmeringsspråk som støtter skripter. Disse skriptene innholder
+kommandoer til å utføre oppgaver.
+
+Perl
+
+- Perl er et programmeringsspråk som låner mye av funksjonaliteten fra f.eks C, unix, awk,
+sed, Lisp og mange andre programmeringsspråk. Perl ble laget for å være et praktisk 
+språk for å hente ut informasjonen fra tekstfiler, for så å nyttegjøre seg av infoen.
+
+Bash
+
+- Bash er en gratis software som kan brukes instedenfor Bourne shell(sh). Bash er et prossesjonsprogram som kjører i et
+tekstvindu.
