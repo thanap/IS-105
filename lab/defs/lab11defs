@@ -1,0 +1,11 @@
+Beskrivelse av pokerprogram
+
+1: Spillere melder seg inn i pokerspill
+2: Splillere ser hvem som spiller
+3: Kortene blir delt ut til spillerne på bordet
+4: Spillerne ser sine korte
+5: Spilleren til venstre for dealer starter
+5: Spillerne kan enten, bet, check, raise, call eller fold
+6: Raise, bet og call legges til i potten, fortsetter til riste runde
+7: Spillerne viser sine kort, men ikke de kortene som er fold
+8: Spillerne med beste korter vinner
