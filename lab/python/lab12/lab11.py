@@ -18,7 +18,7 @@
 # Skriv inn fullt navn på gruppemedlemene (erstatte '-' med navn slikt 'Kari Trå')
 gruppe = {  'student1': 'Thananchai Prasomwong', \
 			'student2': 'Kent Brekke Admunsen', \
-			'student3': '-', \
+			'student3': 'Jonas Ljosåk', \
 }
 
 # Oppgave 
