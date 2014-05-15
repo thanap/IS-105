@@ -17,7 +17,10 @@ import socket
 import sys
 import Queue
 
-import poker
+import random # har ikke tenkt på det, tenkte bare at vi skulle gjøre 2 oppgaver
+
+#jeg kopiert denne filen rett fra fronter og trodde at alle import og andre funksjoner var helt korrekt. og da fokuserte jeg bare på oppgave 1 og 2 der vi skulle løse
+import lab11
 
 # Her er data for pokerspillet
 # For enkelhets skyld deler vi ut kort i det vi starter server
@@ -27,6 +30,7 @@ hands = []
 handsdelt = 0 # Vi trenger en variabel som holder styr på hvor mange hender er delt ut
 numberOfPlayers = 0
 board = []
+#her skulle være en variable som viser antall spillere, men jeg har ombestemt meg og slettet den.
 
 # Lage en TCP/IP socket
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -113,26 +117,29 @@ while inputs:
 				# og hvor du også må finne en måte å dele ut kort på til hver av spillere
 				# hands er her laget ved start av server, men finn også ut 
 				if data == 'JOIN\n':
-					##data = ' '.join(str(x) for x in hands[0])
-					##message_queues[s].put(data)
+					#data = ' '.join(str(x) for x in hands[0])
+					#message_queues[s].put(data)
 					
 					if numberOfPlayers == 3:
 						print >>sys.stderr, 'maks antall spillere er nådd'
-						errir = 'for mange spillere med. '
+						#errir = 'for mange spillere med.' jeg har ikke linux på den pcen jeg bruker å programere derfor det er umulig for meg å sjekke skrivefeilen. jeg kjørte python i windows, men det fungerte ikke som det skulle.
+						error = 'for mange spillere med'
 						message_queues[s].put(error)
 
 					else:
 						board.append(s.getpeername())
 						numberOfPlayers += 1
-						joined = "Det er %d av %d spiller(e) med" % (numberOfPlayers)
+						#joined = 'Det er %d av %d spillere med' % (numberOfPlayers +her skulle være en variable som viser antall spillere på bordet,
+						#men jeg har slettet det variable fordi den var litt komplisert for andre som er i gruppe og jeg har glemt å endre på det. denne funksjon skulle egentlig være en "%d" istedet for to av them.
+						joined = 'Du er spiller nr %d' % numberOfPlayers # %d står for number of players
 						message_queues[s].put(joined)
 
 				if data == 'DEAL\n':
-						if numberOfPlayers == 3:
-							hands = lab11.deal(3)
-							play = dict(zip(board, hands))
-							dealSuccess = 'kort utdelt'
-							message_queues[s].put(dealSuccess)
+					if numberOfPlayers == 3:
+						hands = lab11.deal(3)
+						play = dict(zip(board, hands))
+						dealSuccess = 'kort utdelt'
+						message_queues[s].put(dealSuccess)
 
 					else:
 						error = "Det er ikke nok spillere"
